@@ -78,18 +78,18 @@ img{
 }
 
 
-.post {
+.sale {
 	padding-bottom: 20px;
 	border-bottom: 1px dashed #ccc;
 }
 
-.post-title {
-	color: #d40055;
+.sale-title {
+	color: #4400ff;
 	margin-bottom: 0px;
 	font-size: 20px;
 }
 
-.post-date {
+.sale-date {
 	font-size: 11px;
 	margin-bottom: 10px;
 }

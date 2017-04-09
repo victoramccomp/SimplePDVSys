@@ -9,7 +9,7 @@
 <div id='content'>
 
 	<div id='heading'>
-		<h1><a href='<?php echo site_url("sale") ?>'>PDV</a></h1>
+		<h1><a href='<?php echo site_url("pdv") ?>'>PDV</a></h1>
 		<div id='links'>
 			<a href='<?php echo site_url("pdv") ?>'>Home</a> |
             <a href='<?php echo site_url("pdv/show_add") ?>'>Add Sale</a> 
