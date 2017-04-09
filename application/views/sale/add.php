@@ -1,6 +1,6 @@
  <script type="text/javascript">
     $(document).ready(function(){
-         $("#price").maskMoney({showSymbol:true, symbol:"R$", decimal:",", thousands:"."});
+         $("#price").maskMoney({showSymbol:false, symbol:"R$", decimal:"."});
     });
 </script>
 

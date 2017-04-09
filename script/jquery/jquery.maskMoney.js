@@ -163,9 +163,9 @@ textRange.select();
 }
 
 function blurEvent(e) {
-if ($.browser.msie) {
-keypressEvent(e);
-}
+// if ($.browser.msie) {
+// keypressEvent(e);
+// }
 
 if (input.val()==''||input.val()==setSymbol(getDefaultMask())||input.val()==settings.symbol) {
 if(!settings.allowZero) input.val('');
@@ -274,11 +274,11 @@ input.bind('maskAppend', maskAppend);
 input.one('unmaskMoney',function() {
 input.unbind('.maskMoney');
 
-if ($.browser.msie) {
-this.onpaste= null;
-} else if ($.browser.mozilla) {
-this.removeEventListener('input',blurEvent,false);
-}
+// if ($.browser.msie) {
+// this.onpaste= null;
+// } else if ($.browser.mozilla) {
+// this.removeEventListener('input',blurEvent,false);
+// }
 });
 });
 }

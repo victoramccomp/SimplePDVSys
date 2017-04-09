@@ -8,7 +8,7 @@ class PDV_Model extends CI_Model {
             "description" => $description,
             "price" => $price,
             "owner" => $owner,
-            "date_time" => time()
+            "date" => time()
         );
 
         $this->db->insert("sale", $data);
