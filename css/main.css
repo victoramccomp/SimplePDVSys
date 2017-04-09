@@ -1,0 +1,95 @@
+/** Supplied with Codeigniter - Learn It Correct **/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	margin: 0px;
+	padding: 0px 20px 0px 20px;
+	text-align: center;
+}
+
+body, div, a, input, select, button, textarea {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	color: #333333;
+}
+
+a {
+	text-decoration: none;
+	color: #d40055;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img{
+	border: 0px;
+	box-shadow: 0 0px 5px #cccccc;
+	webkit-box-shadow: 0 0px 5px #cccccc;
+	moz-box-shadow: 0 0px 5px #cccccc;
+	border-radius: 5px;
+    padding: 3px;
+}
+
+#content {
+	width: 930px;
+	margin: auto;
+	text-align: left;
+}
+
+#heading {
+	margin: 20px 0px 0px 0px;
+	position: relative;
+	height: 50px;
+	padding: 0px 0px 20px 0px;
+	border-bottom: 10px solid #cccccc;
+}
+
+#heading h1 a {
+	font-size: 40px;
+	font-weight: normal;
+	color: #333;
+}
+
+#heading h1 a:hover {
+	text-decoration: none;
+}
+
+
+
+#heading #links {
+	position: absolute;
+	top: 25px;
+	right: 0px;
+}
+
+#content {
+	text-align: left;
+}
+
+#footer {
+
+	border-top: 10px solid #cccccc;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	font-size: 13px;
+}
+
+
+.post {
+	padding-bottom: 20px;
+	border-bottom: 1px dashed #ccc;
+}
+
+.post-title {
+	color: #d40055;
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
+.post-date {
+	font-size: 11px;
+	margin-bottom: 10px;
+}
